@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/singup_back">
+
+
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="  UserName"
+                android:layout_marginTop="170dp"
+                android:layout_marginBottom="20dp"
+                android:id="@+id/edtId"
+                android:background="@drawable/round"
+                android:layout_gravity="center" />
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint=" Password"
+                android:inputType="textPassword"
+                android:layout_marginBottom="20dp"
+                android:id="@+id/edtPassword"
+                android:background="@drawable/round"
+                android:layout_gravity="center"/>
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint=" PassWord again"
+                android:inputType="textPassword"
+                android:layout_marginBottom="20dp"
+                android:id="@+id/edtPasswordOk"
+                android:background="@drawable/round"
+                android:layout_gravity="center"/>
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="  Phone number"
+                android:layout_marginBottom="20dp"
+                android:id="@+id/edtPhonenum"
+                android:background="@drawable/round"
+                android:layout_gravity="center"/>
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="  Car number"
+                android:layout_marginBottom="20dp"
+                android:id="@+id/edtCarnum"
+                android:background="@drawable/round"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="sign up"
+                android:layout_gravity="center"
+                android:id="@+id/btnSingup"
+                android:background="@drawable/button"
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
+
+
+
+</LinearLayout>

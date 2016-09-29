@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="intro_Copyright">#2d3e64</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#d4d4d4</color>
+    <color name="black">#000000</color>
+    <color name="red">#FF0000</color>
+    <color name="sidebar_text">#808080</color>
+    <color name="sidebar_list">#C2C2C2</color>
+    <color name="common_textview">#F0F0F0</color>
+    <color name="toolbar_icon">#508789</color>
+    <color name="regsit_textview">#f2f0dd</color>
+    <color name="regsit_textview2">#e5e4dd</color>
+    <color name="listview_item">#646464</color>
+    <color name="history_child">#f2f0dd</color>
+    <color name="common_background">#fdfce4</color>
+
+</resources>
